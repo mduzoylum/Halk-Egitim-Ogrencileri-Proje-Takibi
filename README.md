@@ -1,2 +1,2 @@
 # komek
-Komek Projesi
+Komek Projesi yakında tüm sanayicileri kucaklayacak.

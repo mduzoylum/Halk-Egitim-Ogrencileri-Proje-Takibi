@@ -1,0 +1,15 @@
+<?php
+class basicDB{
+	private $mysqli;
+	public function __construct($host,$username,$password,$dbname)
+  {
+		  $this->mysqli = new mysqli($host, $username, $password, $dbname);
+  }
+  public function ekle($tablo="",$veriler=array()){
+  }
+  public function duzenle($tablo="",$veriler=array(),$id=""){
+  }
+  public function sil($tablo="",$id=""){
+  }
+}
+$db = new basicDB('localhost', 'root', '', 'blog') or die('Cannot connect!');

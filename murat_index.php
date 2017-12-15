@@ -75,7 +75,6 @@ function tamamla(al){//tamamla fonsiyonu çağırılınca gönderilen veriyi al
 /*basit tasarım*/
 #ana{width:175px;position:relative;margin:auto;}
 #kelime{width:150px;height:20px;position:absolute;left:0px;top:0px;}
-#ana #btn{position:absolute; right:-15px; height:26px;  z-index:5;}
 #ana #aramaliste {float: left; width: 100%; display: none; height: auto; position: absolute; list-style-type: none; margin:30px 0 0 0;padding:0; background: #FFFFFF;}
 #ana #aramaliste li{width: calc( 100% - 20px); cursor: pointer; float: left; border-bottom: solid 1px #eee; padding:5px 10px;}
 #ana #aramaliste li:hover{background:#eee;}
@@ -89,7 +88,7 @@ function tamamla(al){//tamamla fonsiyonu çağırılınca gönderilen veriyi al
 <div id="ana">
 	<form action="sonuc.php" id="arama_frm">
 		<input type="text" name="q" id="kelime" autocomplete="off"/>
-		<input type="submit" name="btn_ara" value="ara" id="btn" />
+		
 		<ul id="aramaliste">
 			<!--Arama Sorgusunda Öneriler Bu Alanda Çıkack -->
 		</ul>

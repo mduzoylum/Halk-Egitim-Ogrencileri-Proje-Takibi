@@ -86,7 +86,7 @@ function tamamla(al){//tamamla fonsiyonu çağırılınca gönderilen veriyi al
 <body>
 
 <div id="ana">
-	<form action="sonuc.php" id="arama_frm">
+	<form action="" id="arama_frm">
 		<input type="text" name="q" id="kelime" autocomplete="off"/>
 		
 		<ul id="aramaliste">

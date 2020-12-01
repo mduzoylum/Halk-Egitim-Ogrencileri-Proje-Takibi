@@ -1,2 +1,2 @@
 # komek
-Komek Öğrencileri için, ödev takip platformu.
+Komek Öğrencileri için ödev takip platformu.

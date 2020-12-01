@@ -1,2 +1,2 @@
 # komek
-Komek Projesi yakında tüm sanayicileri kucaklayacak.
+Komek Öğrencileri için, ödev takip platformu.
